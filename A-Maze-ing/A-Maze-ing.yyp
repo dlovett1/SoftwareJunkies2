@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"testObj","path":"objects/testObj/testObj.yy",},"order":0,},
+    {"id":{"name":"Test1","path":"objects/Test1/Test1.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
