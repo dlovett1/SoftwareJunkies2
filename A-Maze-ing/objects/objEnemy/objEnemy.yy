@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprEnemy",
+    "path": "sprites/sprEnemy/sprEnemy.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Test1",
+  "name": "objEnemy",
   "tags": [],
   "resourceType": "GMObject",
 }
