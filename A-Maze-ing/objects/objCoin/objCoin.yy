@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprCoin",
+    "path": "sprites/sprCoin/sprCoin.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "testObj",
+  "name": "objCoin",
   "tags": [],
   "resourceType": "GMObject",
 }

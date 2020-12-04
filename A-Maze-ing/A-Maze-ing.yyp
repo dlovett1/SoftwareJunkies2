@@ -1,14 +1,24 @@
 {
   "resources": [
+<<<<<<< Updated upstream
     {"id":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"order":1,},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"WallSpr","path":"sprites/WallSpr/WallSpr.yy",},"order":2,},
     {"id":{"name":"testObj","path":"objects/testObj/testObj.yy",},"order":0,},
-    {"id":{"name":"BackgroundSpr2","path":"sprites/BackgroundSpr2/BackgroundSpr2.yy",},"order":3,},
     {"id":{"name":"Coin","path":"objects/Coin/Coin.yy",},"order":3,},
     {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},"order":2,},
     {"id":{"name":"BackgroundSpr1","path":"sprites/BackgroundSpr1/BackgroundSpr1.yy",},"order":0,},
     {"id":{"name":"Test1","path":"objects/Test1/Test1.yy",},"order":1,},
+=======
+    {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":0,},
+    {"id":{"name":"gameEnd","path":"rooms/gameEnd/gameEnd.yy",},"order":1,},
+    {"id":{"name":"sprCoin","path":"sprites/sprCoin/sprCoin.yy",},"order":2,},
+    {"id":{"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},"order":3,},
+    {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":2,},
+    {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},"order":1,},
+    {"id":{"name":"objScoreboard","path":"objects/objScoreboard/objScoreboard.yy",},"order":3,},
+    {"id":{"name":"objCoin","path":"objects/objCoin/objCoin.yy",},"order":1,},
+    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
+>>>>>>> Stashed changes
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -26,7 +36,7 @@
   },
   "RoomOrder": [
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
-    {"name":"Room2","path":"rooms/Room2/Room2.yy",},
+    {"name":"gameEnd","path":"rooms/gameEnd/gameEnd.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
