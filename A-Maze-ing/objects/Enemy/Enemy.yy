@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "CointSpr",
-    "path": "sprites/CointSpr/CointSpr.yy",
+    "name": "EnemySpr",
+    "path": "sprites/EnemySpr/EnemySpr.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"parent":{"name":"Coin","path":"objects/Coin/Coin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Coin",
+  "name": "Enemy",
   "tags": [],
   "resourceType": "GMObject",
 }
