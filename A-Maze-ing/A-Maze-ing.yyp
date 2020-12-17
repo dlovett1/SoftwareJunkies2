@@ -9,6 +9,7 @@
     {"id":{"name":"EndScreenSPr","path":"sprites/EndScreenSPr/EndScreenSPr.yy",},"order":4,},
     {"id":{"name":"BackgroundSpr2","path":"sprites/BackgroundSpr2/BackgroundSpr2.yy",},"order":3,},
     {"id":{"name":"Scoreboard","path":"objects/Scoreboard/Scoreboard.yy",},"order":5,},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":18,},
     {"id":{"name":"EnemySpr","path":"sprites/EnemySpr/EnemySpr.yy",},"order":6,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":4,},
     {"id":{"name":"Coin","path":"objects/Coin/Coin.yy",},"order":3,},
