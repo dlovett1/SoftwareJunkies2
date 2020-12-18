@@ -1,10 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"YouWinScreenSpr","path":"sprites/YouWinScreenSpr/YouWinScreenSpr.yy",},"order":8,},
     {"id":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"order":1,},
+    {"id":{"name":"StartScreenSpr","path":"sprites/StartScreenSpr/StartScreenSpr.yy",},"order":9,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"WallSpr","path":"sprites/WallSpr/WallSpr.yy",},"order":2,},
     {"id":{"name":"EnemyPath1","path":"paths/EnemyPath1/EnemyPath1.yy",},"order":0,},
     {"id":{"name":"Enemy5","path":"objects/Enemy5/Enemy5.yy",},"order":10,},
+    {"id":{"name":"StartScreenRoom","path":"rooms/StartScreenRoom/StartScreenRoom.yy",},"order":4,},
     {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},"order":16,},
     {"id":{"name":"EnemyPath2","path":"paths/EnemyPath2/EnemyPath2.yy",},"order":1,},
     {"id":{"name":"PlayerSpr","path":"sprites/PlayerSpr/PlayerSpr.yy",},"order":5,},
@@ -18,6 +21,7 @@
     {"id":{"name":"EnemyPath3","path":"paths/EnemyPath3/EnemyPath3.yy",},"order":2,},
     {"id":{"name":"Enemy4","path":"objects/Enemy4/Enemy4.yy",},"order":9,},
     {"id":{"name":"Enemy6","path":"objects/Enemy6/Enemy6.yy",},"order":11,},
+    {"id":{"name":"CoinCollectedSpr","path":"sprites/CoinCollectedSpr/CoinCollectedSpr.yy",},"order":12,},
     {"id":{"name":"EnemySpr","path":"sprites/EnemySpr/EnemySpr.yy",},"order":6,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":4,},
     {"id":{"name":"EnemyPath7","path":"paths/EnemyPath7/EnemyPath7.yy",},"order":6,},
@@ -29,7 +33,12 @@
     {"id":{"name":"EndScreenRoom","path":"rooms/EndScreenRoom/EndScreenRoom.yy",},"order":2,},
     {"id":{"name":"BackgroundSpr1","path":"sprites/BackgroundSpr1/BackgroundSpr1.yy",},"order":0,},
     {"id":{"name":"EnemyPath5","path":"paths/EnemyPath5/EnemyPath5.yy",},"order":4,},
+    {"id":{"name":"PlayerMoveSpr","path":"sprites/PlayerMoveSpr/PlayerMoveSpr.yy",},"order":10,},
+    {"id":{"name":"PlayerDie","path":"objects/PlayerDie/PlayerDie.yy",},"order":13,},
+    {"id":{"name":"YouLoseScreenSprite","path":"sprites/YouLoseScreenSprite/YouLoseScreenSprite.yy",},"order":7,},
+    {"id":{"name":"YouLoseScreenRoom","path":"rooms/YouLoseScreenRoom/YouLoseScreenRoom.yy",},"order":3,},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":15,},
+    {"id":{"name":"PlayerDeathSpr","path":"sprites/PlayerDeathSpr/PlayerDeathSpr.yy",},"order":11,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -46,9 +55,11 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"StartScreenRoom","path":"rooms/StartScreenRoom/StartScreenRoom.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"Room2","path":"rooms/Room2/Room2.yy",},
     {"name":"EndScreenRoom","path":"rooms/EndScreenRoom/EndScreenRoom.yy",},
+    {"name":"YouLoseScreenRoom","path":"rooms/YouLoseScreenRoom/YouLoseScreenRoom.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -31,25 +31,3 @@ if(l51503933_0)
 	/// @DnDSaveInfo : "room" "EndScreenRoom"
 	room_goto(EndScreenRoom);
 }
-
-/// @DnDAction : YoYo Games.Common.Else
-/// @DnDVersion : 1
-/// @DnDHash : 1FC7D95F
-else
-{
-	/// @DnDAction : YoYo Games.Rooms.Restart_Room
-	/// @DnDVersion : 1
-	/// @DnDHash : 3D94D901
-	/// @DnDParent : 1FC7D95F
-	room_restart();
-
-	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
-	/// @DnDVersion : 1
-	/// @DnDHash : 589FE6E3
-	/// @DnDApplyTo : {Scoreboard}
-	/// @DnDParent : 1FC7D95F
-	with(Scoreboard) {
-	
-	__dnd_score = real(0);
-	}
-}

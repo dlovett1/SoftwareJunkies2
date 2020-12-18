@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 83,
-  "bbox_right": 937,
-  "bbox_top": 86,
-  "bbox_bottom": 940,
+  "bbox_left": 84,
+  "bbox_right": 936,
+  "bbox_top": 87,
+  "bbox_bottom": 939,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,24 +24,44 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"114eca46-a780-445f-904f-3616b571abc1","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"114eca46-a780-445f-904f-3616b571abc1","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":{"name":"2e66d44c-f256-4ab3-aac3-499fc8ca4e51","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"114eca46-a780-445f-904f-3616b571abc1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3a309b1f-6168-4ae9-aaea-dbab3f60f2b4","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3a309b1f-6168-4ae9-aaea-dbab3f60f2b4","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":{"name":"807a75da-7304-476f-9a15-b8f284d43566","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"3a309b1f-6168-4ae9-aaea-dbab3f60f2b4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ce50667b-1bac-405e-a459-044428dd38a3","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ce50667b-1bac-405e-a459-044428dd38a3","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":{"name":"807a75da-7304-476f-9a15-b8f284d43566","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"ce50667b-1bac-405e-a459-044428dd38a3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eaca83f4-a4c9-4028-b429-98e7a6da2383","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eaca83f4-a4c9-4028-b429-98e7a6da2383","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":{"name":"807a75da-7304-476f-9a15-b8f284d43566","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"eaca83f4-a4c9-4028-b429-98e7a6da2383","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"74bff942-73b8-470f-a41b-84194b9d9c4d","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"74bff942-73b8-470f-a41b-84194b9d9c4d","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":{"name":"807a75da-7304-476f-9a15-b8f284d43566","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"74bff942-73b8-470f-a41b-84194b9d9c4d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f2204568-fb13-4217-84d0-c9104f222c7d","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f2204568-fb13-4217-84d0-c9104f222c7d","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":{"name":"807a75da-7304-476f-9a15-b8f284d43566","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"f2204568-fb13-4217-84d0-c9104f222c7d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"65f8984e-0f42-440e-be9c-f82885769374","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"65f8984e-0f42-440e-be9c-f82885769374","path":"sprites/CointSpr/CointSpr.yy",},"LayerId":{"name":"807a75da-7304-476f-9a15-b8f284d43566","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","name":"65f8984e-0f42-440e-be9c-f82885769374","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"CointSpr","path":"sprites/CointSpr/CointSpr.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 6.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a49dfdab-0a14-4a43-81d3-d9af3ff44bcc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"114eca46-a780-445f-904f-3616b571abc1","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c3f6486c-2353-458c-947b-6a3491ca8a72","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3a309b1f-6168-4ae9-aaea-dbab3f60f2b4","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"550222cd-6912-485a-aff1-17e1b61cfc04","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ce50667b-1bac-405e-a459-044428dd38a3","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5d417adc-c3c5-4a43-9ac3-d5061c53dc1b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eaca83f4-a4c9-4028-b429-98e7a6da2383","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0aaa8f7d-8202-4acd-bf0f-4be21f95387d","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"74bff942-73b8-470f-a41b-84194b9d9c4d","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"294354f0-d543-4726-987f-005222001fa4","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2204568-fb13-4217-84d0-c9104f222c7d","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"610fc14a-e209-40ba-8691-52af61d72bed","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"65f8984e-0f42-440e-be9c-f82885769374","path":"sprites/CointSpr/CointSpr.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +85,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2e66d44c-f256-4ab3-aac3-499fc8ca4e51","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"807a75da-7304-476f-9a15-b8f284d43566","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
