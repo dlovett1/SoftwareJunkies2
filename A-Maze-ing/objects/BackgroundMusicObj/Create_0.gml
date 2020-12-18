@@ -19,9 +19,3 @@ audio_stop_sound(MainMenuMusic);
 /// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "BackgroundMusic"
 audio_play_sound(BackgroundMusic, 0, 1);
-
-/// @DnDAction : YoYo Games.Instance Variables.Set_Score
-/// @DnDVersion : 1
-/// @DnDHash : 19CC6072
-
-__dnd_score = real(0);
