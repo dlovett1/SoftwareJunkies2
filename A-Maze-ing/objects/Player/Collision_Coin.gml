@@ -9,16 +9,12 @@ if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 __dnd_score += real(1);
 }
 
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
-/// @DnDHash : 60F4C20E
-/// @DnDApplyTo : other
-/// @DnDArgument : "spriteind" "CoinCollectedSpr"
-/// @DnDSaveInfo : "spriteind" "CoinCollectedSpr"
-with(other) {
-sprite_index = CoinCollectedSpr;
-image_index = 0;
-}
+/// @DnDHash : 43425456
+/// @DnDArgument : "soundid" "PickCoinUpSound"
+/// @DnDSaveInfo : "soundid" "PickCoinUpSound"
+audio_play_sound(PickCoinUpSound, 0, 0);
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Score
 /// @DnDVersion : 1

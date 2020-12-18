@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 3760036D
+/// @DnDArgument : "soundid" "PlayerDeathSound"
+/// @DnDSaveInfo : "soundid" "PlayerDeathSound"
+audio_play_sound(PlayerDeathSound, 0, 0);
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 48E19F3B
@@ -27,7 +34,21 @@ if(l51503933_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6A607BA0
 	/// @DnDParent : 51503933
-	/// @DnDArgument : "room" "EndScreenRoom"
-	/// @DnDSaveInfo : "room" "EndScreenRoom"
-	room_goto(EndScreenRoom);
+	/// @DnDArgument : "room" "YouLoseScreenRoom"
+	/// @DnDSaveInfo : "room" "YouLoseScreenRoom"
+	room_goto(YouLoseScreenRoom);
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 23A3D4CE
+else
+{
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 1740E61E
+	/// @DnDParent : 23A3D4CE
+	/// @DnDArgument : "room" "Room1"
+	/// @DnDSaveInfo : "room" "Room1"
+	room_goto(Room1);
 }
