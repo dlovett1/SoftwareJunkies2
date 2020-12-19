@@ -10,15 +10,11 @@ audio_play_sound(PlayerDeathSound, 0, 0);
 /// @DnDHash : 48E19F3B
 /// @DnDApplyTo : {Scoreboard}
 /// @DnDArgument : "lives" "-1"
+/// @DnDArgument : "lives_relative" "1"
 with(Scoreboard) {
-
-__dnd_lives = real(-1);
+if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+__dnd_lives += real(-1);
 }
-
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 170D6F6D
-instance_destroy();
 
 /// @DnDAction : YoYo Games.Instance Variables.If_Lives
 /// @DnDVersion : 1
@@ -52,3 +48,17 @@ else
 	/// @DnDSaveInfo : "room" "Room1"
 	room_goto(Room1);
 }
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+/// @DnDVersion : 1
+/// @DnDHash : 5EF4A186
+/// @DnDApplyTo : {Scoreboard}
+with(Scoreboard) {
+
+__dnd_score = real(0);
+}
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 170D6F6D
+instance_destroy();
