@@ -16,39 +16,6 @@ if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 __dnd_lives += real(-1);
 }
 
-/// @DnDAction : YoYo Games.Instance Variables.If_Lives
-/// @DnDVersion : 1
-/// @DnDHash : 51503933
-/// @DnDApplyTo : {Scoreboard}
-with(Scoreboard) {
-if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-var l51503933_0 = __dnd_lives == 0;
-}
-if(l51503933_0)
-{
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-	/// @DnDVersion : 1
-	/// @DnDHash : 6A607BA0
-	/// @DnDParent : 51503933
-	/// @DnDArgument : "room" "YouLoseScreenRoom"
-	/// @DnDSaveInfo : "room" "YouLoseScreenRoom"
-	room_goto(YouLoseScreenRoom);
-}
-
-/// @DnDAction : YoYo Games.Common.Else
-/// @DnDVersion : 1
-/// @DnDHash : 23A3D4CE
-else
-{
-	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-	/// @DnDVersion : 1
-	/// @DnDHash : 1740E61E
-	/// @DnDParent : 23A3D4CE
-	/// @DnDArgument : "room" "Room1"
-	/// @DnDSaveInfo : "room" "Room1"
-	room_goto(Room1);
-}
-
 /// @DnDAction : YoYo Games.Instance Variables.Set_Score
 /// @DnDVersion : 1
 /// @DnDHash : 5EF4A186
@@ -58,7 +25,9 @@ with(Scoreboard) {
 __dnd_score = real(0);
 }
 
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
-/// @DnDHash : 170D6F6D
-instance_destroy();
+/// @DnDHash : 43E070F0
+/// @DnDArgument : "room" "YouLoseScreenRoom"
+/// @DnDSaveInfo : "room" "YouLoseScreenRoom"
+room_goto(YouLoseScreenRoom);

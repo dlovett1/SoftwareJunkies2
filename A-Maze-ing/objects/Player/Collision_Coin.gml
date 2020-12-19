@@ -20,10 +20,11 @@ audio_play_sound(PickCoinUpSound, 0, 0);
 /// @DnDVersion : 1
 /// @DnDHash : 667613AB
 /// @DnDApplyTo : {Scoreboard}
+/// @DnDArgument : "op" "4"
 /// @DnDArgument : "value" "20"
 with(Scoreboard) {
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-var l667613AB_0 = __dnd_score == 20;
+var l667613AB_0 = __dnd_score >= 20;
 }
 if(l667613AB_0)
 {
